@@ -1,0 +1,12 @@
+{
+  "name": "reroute-test",
+  "reason": {
+      "react-jsx": 2
+  },
+  "bsc-flags": ["-bs-super-errors"],
+  "bs-dependencies": ["bs-react-native", "reason-react", "reason-reroute"],
+  "sources": [{
+      "dir": "re"
+  }],
+  "refmt": 3
+}
