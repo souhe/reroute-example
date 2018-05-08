@@ -2,6 +2,11 @@ open Navigation;
 
 open BsReactNative;
 
+module Styles = {
+  open Style;
+  let link = style([padding(Pt(10.))]);
+};
+
 let component = ReasonReact.statelessComponent("Home");
 
 let make = (~navigation: StackNavigator.navigation, _children) => {
@@ -11,11 +16,12 @@ let make = (~navigation: StackNavigator.navigation, _children) => {
       ...(
            () =>
              <View>
-               <Text> (ReasonReact.string("Home")) </Text>
                <View>
                  <TouchableOpacity
                    onPress=(_e => navigation.push(Config.Settings))>
-                   <Text> (ReasonReact.string("Settings")) </Text>
+                   <Text style=Styles.link>
+                     (ReasonReact.string("Settings"))
+                   </Text>
                  </TouchableOpacity>
                </View>
              </View>
