@@ -5,5 +5,4 @@ module Config = {
     | MainSettings
     | ProfileSettings;
 };
-
-include ReRoute.CreateNavigation(Config);
+include RerouteNative.ReRoute.CreateNavigation(Config);

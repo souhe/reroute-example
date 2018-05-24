@@ -15,7 +15,7 @@
     "react-native": "0.55.3",
     "react-native-gesture-handler": "^1.0.0-alpha.43",
     "reason-react": "^0.4.1",
-    "reason-reroute": "knowbody/reroute-native#master"
+    "reroute-native": "^0.0.5"
   },
   "devDependencies": {
     "babel-jest": "22.4.3",

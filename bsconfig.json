@@ -4,9 +4,14 @@
       "react-jsx": 2
   },
   "bsc-flags": ["-bs-super-errors"],
-  "bs-dependencies": ["bs-react-native", "reason-react", "reason-reroute"],
+  "bs-dependencies": ["bs-react-native", "reason-react", "reroute-native"],
   "sources": [{
       "dir": "re"
   }],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "namespace": true,
   "refmt": 3
 }

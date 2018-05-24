@@ -1,5 +1,5 @@
 import { AppRegistry } from 'react-native';
 
-import { app } from "./lib/js/re/App.js";
+import { app } from "./re/App.js";
 
 AppRegistry.registerComponent('rerouteTest', () => app);
